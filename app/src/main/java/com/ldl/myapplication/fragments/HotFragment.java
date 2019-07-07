@@ -5,6 +5,7 @@ import android.os.Looper;
 import android.os.Message;
 import android.view.View;
 
+import com.ldl.commonlibrary.weiget.givelike.DLCustomGiveLikeView;
 import com.ldl.myapplication.R;
 import com.ldl.myapplication.base.BaseFragment;
 
@@ -22,13 +23,9 @@ Handler mHandler=new Handler(Looper.getMainLooper(), new Handler.Callback() {
 
     @Override
     protected void initView(View view) {
-        Message obtain = Message.obtain();
-        mHandler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-
-            }
-        },100);
+        DLCustomGiveLikeView cGiveLike = view.findViewById(R.id.cGiveLike);
+        cGiveLike.setCount(99);
+        cGiveLike.setSelected(true);
     }
 
     @Override

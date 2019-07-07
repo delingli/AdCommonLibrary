@@ -1,15 +1,16 @@
 package com.ldl.myapplication;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
+
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.ldl.myapplication.fragments.HomeFragment;
 import com.ldl.myapplication.fragments.HotFragment;
 import com.ldl.myapplication.fragments.MyFragment;

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tv_givelike"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/give_like"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#F30808"
+        android:textSize="12dp" />
+</FrameLayout>

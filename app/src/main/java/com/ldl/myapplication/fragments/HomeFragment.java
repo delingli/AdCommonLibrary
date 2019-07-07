@@ -2,9 +2,10 @@ package com.ldl.myapplication.fragments;
 
 import android.os.Handler;
 import android.os.Looper;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.ldl.myapplication.R;
 import com.ldl.myapplication.base.BaseFragment;
