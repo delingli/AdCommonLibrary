@@ -1,4 +1,4 @@
-package com.ldl.commonlibrary.weiget.givelike;
+package com.ldl.commonlibrary.weiget.weiget.givelike;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;

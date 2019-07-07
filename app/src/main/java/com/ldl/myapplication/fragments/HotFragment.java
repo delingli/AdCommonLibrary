@@ -5,7 +5,7 @@ import android.os.Looper;
 import android.os.Message;
 import android.view.View;
 
-import com.ldl.commonlibrary.weiget.givelike.DLCustomGiveLikeView;
+import com.ldl.commonlibrary.weiget.weiget.givelike.DLCustomGiveLikeView;
 import com.ldl.myapplication.R;
 import com.ldl.myapplication.base.BaseFragment;
 

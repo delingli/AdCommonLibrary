@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
 
-    <com.ldl.commonlibrary.weiget.givelike.DLCustomGiveLikeView
+    <com.ldl.commonlibrary.weiget.weiget.givelike.DLCustomGiveLikeView
         android:layout_width="wrap_content"
         android:id="@+id/cGiveLike"
         android:layout_centerInParent="true"
